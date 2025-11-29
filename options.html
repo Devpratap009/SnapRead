@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Extension Options</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <h1>SnapRead Settings</h1>
+
+    <div class="form-group">
+      <label for="api-key">Gemini API Key</label>
+      <input
+        type="text"
+        id="api-key"
+        placeholder="Enter your Gemini API Key here"
+      />
+
+      <p>
+        You can get your Gemini API key from the
+        <a
+          href="https://makersuite.google.com/app/apikey"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Google AI Studio</a
+        >
+      </p>
+    </div>
+
+    <button id="save-button">Save</button>
+    <p id="success-message">Settings saved successfully!</p>
+
+    <script src="options.js"></script>
+  </body>
+</html>

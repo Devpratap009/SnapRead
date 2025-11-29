@@ -1,0 +1,163 @@
+/* ========== Global Styles ========== */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    sans-serif;
+  background-color: #f7f9fc;
+  color: #0f172a;
+  line-height: 1.5;
+}
+
+body {
+  padding: 40px 20px;
+}
+
+/* ========== Typography ========== */
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 24px;
+  color: #0f172a;
+}
+
+p {
+  margin: 0;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+a {
+  color: #2563eb;
+  text-decoration: none;
+  transition: text-decoration 0.2s;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ========== Form Group ========== */
+.form-group {
+  background: white;
+  border: 1px solid #e6e9ee;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+}
+
+/* ========== Labels ========== */
+label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #0f172a;
+}
+
+/* ========== Input ========== */
+input[type="text"] {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #e6e9ee;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #0f172a;
+  transition: all 0.2s;
+  margin-bottom: 12px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+}
+
+input[type="text"]::placeholder {
+  color: #9ca3af;
+}
+
+/* ========== Help Text ========== */
+.form-group p {
+  font-size: 13px;
+  color: #6b7280;
+  margin-top: 8px;
+}
+
+/* ========== Button ========== */
+#save-button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+#save-button:hover {
+  background-color: #1d4ed8;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+#save-button:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);
+}
+
+/* ========== Success Message ========== */
+#success-message {
+  color: #10b981;
+  font-weight: 500;
+  font-size: 14px;
+  display: none;
+  margin-top: 12px;
+}
+
+#success-message.show {
+  display: block;
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ========== Responsive Design ========== */
+@media (max-width: 600px) {
+  body {
+    padding: 20px 12px;
+  }
+
+  h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    padding: 16px;
+  }
+
+  input[type="text"],
+  #save-button {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SnapRead</title>
+    <link rel="stylesheet" href="popup.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="popup">
+      <!-- Header -->
+      <header class="header">
+        <div class="logo-wrapper">
+          <!-- FIXED: must be relative inside extension -->
+          <img src="C:\Users\FX\Documents\Project\WebDev\SnapRead\Assets\logo.png" alt="SnapRead Logo" class="logo-img" />
+        </div>
+        <div class="title-block">
+          <h1 class="title">SnapRead</h1>
+          <p class="subtitle">AI article summarizer</p>
+        </div>
+      </header>
+
+      <!-- Controls -->
+      <section class="controls">
+        <label class="field-label" for="summary-type">Summary length</label>
+        <select id="summary-type" class="select-control">
+          <option value="short">Short</option>
+          <option value="medium">Detailed</option>
+          <option value="bullet">Bullet points</option>
+        </select>
+      </section>
+
+      <!-- Summary box -->
+      <section class="summary-section">
+        <label class="field-label">Summary</label>
+        <div class="summary-box summary-box--empty" id="summary-box">
+          <p class="placeholder-text">
+            Your summary will appear here after you run SnapRead.
+          </p>
+        </div>
+      </section>
+
+      <!-- Actions -->
+      <div class="button-row">
+        <button class="btn btn-primary" id="summarize-btn">
+          Summarize page
+        </button>
+        <button class="btn btn-ghost" id="copy-btn" disabled>Copy</button>
+      </div>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <span class="footer-text">Powered by AI</span>
+      </footer>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
