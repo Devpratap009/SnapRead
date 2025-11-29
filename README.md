@@ -30,7 +30,7 @@ https://github.com/user-attachments/assets/66a6b5e2-db54-4711-87b7-ba13b5ad8b4b
 
 ## Installation
 1. Clone the repository:
-   git clone https://github.com/yourusername/snapread.git
+   git clone https://github.com/Devpratap009/SnapRead
 
 2. Open Chrome → chrome://extensions/
 
