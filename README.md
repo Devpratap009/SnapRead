@@ -6,6 +6,11 @@ inside a clean, Material-inspired popup UI.
 
 <img width="393" height="452" alt="Screenshot 2025-11-29 214152" src="https://github.com/user-attachments/assets/fae57e79-e6fc-4b5d-b4f2-a38c3474478f" />
 <img width="384" height="447" alt="Screenshot 2025-11-29 214229" src="https://github.com/user-attachments/assets/4dee7e7d-86aa-4dab-accb-14817ee5c8bb" />
+<img width="1906" height="388" alt="Screenshot 2025-11-29 220207000" src="https://github.com/user-attachments/assets/e959df04-5d35-4c07-a4df-dcb31e8c7f51" />
+<img width="274" height="52" alt="Screenshot 2025-11-29 224503" src="https://github.com/user-attachments/assets/95e437fe-f3a0-4302-be91-3675a92c2a8d" />
+<img width="1920" height="1080" alt="Screenshot 2025-11-29 214314" src="https://github.com/user-attachments/assets/d0ca39f8-ead3-4455-92ee-3321a5ae12fc" />
+<img width="385" height="527" alt="Screenshot 2025-11-29 214251" src="https://github.com/user-attachments/assets/6fba1fe6-777d-492d-acc7-88f17934c93d" />
+
 https://github.com/user-attachments/assets/66a6b5e2-db54-4711-87b7-ba13b5ad8b4b
 
 ## Features
